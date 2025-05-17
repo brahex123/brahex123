@@ -58,7 +58,7 @@
 - 🔗 [Mon Portfolio](https://brahex123.github.io/ibrahex123.github.io/)
 - 💼 [LinkedIn](https://www.linkedin.com/in/ibrahim-mechaouat-21a939178/)
 - 🧪 Google Scholar : *à venir...*
-- 📬 Contact pro : brahim.mechaouat[at]gmail.com
+- 📬 Contact pro : brahim.mechaouat@gmail.com
 
 ---
 
@@ -74,7 +74,7 @@ Merci à mes encadrants et collègues chercheurs pour leur soutien pendant ce st
 
 ---
 
-## Hi there 👋
+
 
 <!--
 **brahex123/brahex123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
