@@ -1,0 +1,360 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\ibrahim
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 73
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 45
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 847
+    content: "\e[?9001h\e[?1004h"
+  - delay: 167
+    content: "\e[?25l\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. Tous droits réservés.\e[4;1HInstallez la dernière version de PowerShell pour de nouvelles fonctionnalités et améliorations\_! https://aka.ms/PSWindows\e]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 15
+    content: "\e[?25l\e[7;1H\e[?25h"
+  - delay: 291
+    content: 'PS C:\Users\ibrahim> '
+  - delay: 284319
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[32m#\e[?25h"
+  - delay: 15
+    content: "\e[m\e[32m\b# "
+  - delay: 52
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[7;22H# Présentation per\e[?25h"
+  - delay: 24
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[32m\e[7;22H# Présentation personnelle\r\n\e[?25h"
+  - delay: 115
+    content: "\e[mPS C:\\Users\\ibrahim> "
+  - delay: 101
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[91m\e[8;20H> \e[93mecho \e[36m\"Bonjour, j\e[?25h"
+  - delay: 35
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[8;22Hecho \e[36m\"Bonjour, je suis Brahim Me\e[?25h"
+  - delay: 23
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[8;20H> \e[93mecho \e[36m\"Bonjour, je suis Brahim Mechaouat \"\r\n\e[?25h"
+  - delay: 245
+    content: "\e[mBonjour, je suis Brahim Mechaouat "
+  - delay: 22
+    content: "\r\nPS C:\\Users\\ibrahim> "
+  - delay: 41
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[91m\e[10;20H> \e[93mecho \e[36m\"Étudiant \e[?25h"
+  - delay: 33
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[10;22Hecho \e[36m\"Étudiant en stage de rec\e[?25h"
+  - delay: 40
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[10;22Hecho \e[36m\"Étudiant en stage de recherche en IA et\e[?25h"
+  - delay: 32
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[10;22Hecho \e[36m\"Étudiant en stage de recherche en IA et Deep Learning à\e[?25h"
+  - delay: 25
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[10;20H> \e[93mecho \e[36m\"Étudiant en stage de recherche en IA et Deep Learning à Nancy, France \"\r\n\e[?25h"
+  - delay: 25
+    content: "\e[mÉtudiant en stage de recherche en IA et Deep Learning à Nancy, France "
+  - delay: 21
+    content: "\r\nPS C:\\Users\\ibrahim> "
+  - delay: 16
+    content: "\e[93mecho \e[36m\"Passionné par l'intelligence artificielle, l'apprentissage profond et la recherche scientifique.\"\r\n"
+  - delay: 34
+    content: "\e[mPassionné par l'intelligence artificielle, l'apprentissage profond et la recherche scientifique."
+  - delay: 12
+    content: "\r\nPS C:\\Users\\ibrahim> \r\n"
+  - delay: 16
+    content: "PS C:\\Users\\ibrahim> \e[32m# Compétences techniques\r\n"
+  - delay: 42
+    content: "\e[mPS C:\\Users\\ibrahim> "
+  - delay: 21
+    content: "\e[93mecho \e[36m\"\"\r\n"
+  - delay: 32
+    content: "\e[m\r\n"
+  - delay: 16
+    content: "PS C:\\Users\\ibrahim> \e[93mecho \e[36m\" Compétences techniques :\"\r\n"
+  - delay: 41
+    content: "\e[m Compétences techniques :"
+  - delay: 21
+    content: "\r\nPS C:\\Users\\ibrahim> \e[93mecho \e[36m\"- Langages : Python, C++, Java\"\r\n"
+  - delay: 37
+    content: "\e[m- Langages : Python, C++, Java"
+  - delay: 10
+    content: "\r\nPS C:\\Users\\ibrahim> "
+  - delay: 15
+    content: "\e[93mecho \e[36m\"- Frameworks : TensorFlow, PyTorch, Keras\"\r\n"
+  - delay: 39
+    content: "\e[m- Frameworks : TensorFlow, PyTorch, Keras"
+  - delay: 23
+    content: "\r\nPS C:\\Users\\ibrahim> \e[93mecho \e[36m\"- Outils : Git, Docker, Jupyter Notebook\"\r\n"
+  - delay: 40
+    content: "\e[m- Outils : Git, Docker, Jupyter Notebook"
+  - delay: 23
+    content: "\r\nPS C:\\Users\\ibrahim> \r\nPS C:\\Users\\ibrahim> \e[32m# Projets en cours\r\n"
+  - delay: 44
+    content: "\e[mPS C:\\Users\\ibrahim> "
+  - delay: 18
+    content: "\e[?25l\e[93mecho \e[36m\"\"\e[m\e[33;1HPS C:\\Users\\ibrahim> \e[?25h"
+  - delay: 16
+    content: "\e[93mecho \e[36m\" Projets en cours :\"\r\n"
+  - delay: 84
+    content: "\e[m Projets en cours :"
+  - delay: 9
+    content: "\r\nPS C:\\Users\\ibrahim> "
+  - delay: 15
+    content: "\e[93mecho \e[36m\"- Développement d'un modèle de classification d'images médicales avec CNN\"\e[?25l"
+  - delay: 16
+    content: "\e[m\r\n\e[?25h"
+  - delay: 30
+    content: '- Développement d''un modèle de classification d''images médicales avec CNN'
+  - delay: 17
+    content: 'PS C:\Users\ibrahim> '
+  - delay: 15
+    content: "\e[93mecho \e[36m\"- Participation à un projet de traitement du langage naturel (NLP) pour l'analyse de sentiments\"\r\n"
+  - delay: 39
+    content: "\e[m- Participation à un projet de traitement du langage naturel (NLP) pour l'analyse de sentiments"
+  - delay: 23
+    content: "\r\nPS C:\\Users\\ibrahim> "
+  - delay: 16
+    content: "\e[93mecho \e[36m\"- Contribution à un projet open-source sur GitHub : https://github.com/brahex123/mon-projet-ia\"\r\n"
+  - delay: 38
+    content: "\e[m- Contribution à un projet open-source sur GitHub : https://github.com/brahex123/mon-projet-ia\r"
+  - delay: 13
+    content: "\nPS C:\\Users\\ibrahim>\e[1C"
+  - delay: 9
+    content: "\r\nPS C:\\Users\\ibrahim>\e[1C"
+  - delay: 10
+    content: "\e[32m# Liens professionnels"
+  - delay: 6
+    content: "\e[m\r\n"
+  - delay: 41
+    content: 'PS C:\Users\ibrahim> '
+  - delay: 7
+    content: "\e[93mecho \e[36m\"\""
+  - delay: 7
+    content: "\e[m\r\n"
+  - delay: 8
+    content: "\nPS C:\\Users\\ibrahim>\e[1C"
+  - delay: 12
+    content: "\e[93mecho \e[36m\" Liens professionnels :\"\e[m\r\n"
+  - delay: 40
+    content: " Liens professionnels :\r"
+  - delay: 22
+    content: "\nPS C:\\Users\\ibrahim>\e[1C"
+  - delay: 5
+    content: "\e[93mecho \e[36m\"- Portfolio : https://brahex123.github.io/ibra\e[?25l\e[m\r\n\e[36m\e[44;73Hahex123.github.io/\"\e[?25h"
+  - delay: 7
+    content: "\e[m\r\n"
+  - delay: 42
+    content: "- Portfolio : https://brahex123.github.io/ibrahex123.github.io/\r"
+  - delay: 19
+    content: "\nPS C:\\Users\\ibrahim>\e[1C"
+  - delay: 9
+    content: "\e[93mecho \e[36m\"- LinkedIn : https://www.linkedin.com/in/ibrah\e[?25l\e[m\r\n\e[36m\e[44;73Hhim-mechaouat-21a939178/\"\e[?25h\e[m\r\n"
+  - delay: 46
+    content: "- LinkedIn : https://www.linkedin.com/in/ibrahim-mechaouat-21a939178/\r"
+  - delay: 15
+    content: "\nPS C:\\Users\\ibrahim>\e[1C"
+  - delay: 9
+    content: "\e[93mecho \e[36m\"- GitHub : https://github.com/brahex123\""
+  - delay: 7
+    content: "\e[m\r\n"
+  - delay: 48
+    content: "- GitHub : https://github.com/brahex123\r"
+  - delay: 13
+    content: "\nPS C:\\Users\\ibrahim>\e[1C\r\n"
+  - delay: 13
+    content: "PS C:\\Users\\ibrahim> \e[32m# Message de conclusion\e[m\r\n"
+  - delay: 46
+    content: 'PS C:\Users\ibrahim> '
+  - delay: 7
+    content: "\e[93mecho \e[36m\"\""
+  - delay: 5
+    content: "\e[m\r\n\n"
+  - delay: 17
+    content: 'PS C:\Users\ibrahim> '
+  - delay: 10
+    content: "\e[?25l\e[91m\e[45;20H> \e[93mecho \e[36m\"Merci de visiter mon profil GitHub ! N'hésitez"
+  - delay: 5
+    content: "\e[m\r\n\e[36m\e[44;73Hz pas à me contacter pour toute collaboration ou oppo\e[21C"
+  - delay: 15
+    content: "\e[m\e[93m\e[44;22Hecho \e[36m\"Merci de visiter mon profil GitHub ! N'hésitez pas à me contacter pour toute collaboration ou opportunité\e[?25h"
+  - delay: 5
+    content: "\e[?25l\e[m\e[44;20H> \e[93mecho \e[36m\"Merci de visiter mon profil GitHub ! N'hésitez pas à me contacter pour toute collaboration ou opportunité.\"\e[?25h"
+  - delay: 10
+    content: "\e[m\r\n"
+  - delay: 35
+    content: "Merci de visiter mon profil GitHub ! N'hésitez pas à me contacter pour to\r\n\e[44;73Houte collaboration ou opportunité.\r"
+  - delay: 10
+    content: "\nPS C:\\Users\\ibrahim>\e[1C"
+  - delay: 47912
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m^D\e[?25h"
+  - delay: 1116
+    content: "\e[m"
+  - delay: 19
+    content: "\r\n"
+  - delay: 1697
+    content: "\e[38;5;9m : Le terme «» n'est pas reconnu comme nom d'applet de commande, \e[m\r\n\e[38;5;9mfonction, fichier de script ou programme exécutable. Vérifiez\e[1C\e[?25l\e[m\r\n\e[38;5;9ml'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le    \e[45;71H\e[?25h\e[m\r\n\e[38;5;9mchemin d'accès est correct et réessayez.\e[m\r\n\e[38;5;9mAu caractère Ligne:1 : 1\e[m\r\n\e[38;5;9m+\e[1C\e[m\r\n\e[38;5;9m+ ~\e[?25l\e[m\r\n\e[38;5;9m    + CategoryInfo          : ObjectNotFound: (:String) [], CommandNot   \e[45;72H\e[?25h\e[m\r\n\e[38;5;9m   FoundException\e[m\r\n\e[38;5;9m    + FullyQualifiedErrorId : CommandNotFoundException\e[m\r\n\e[38;5;9m\e[1C"
+  - delay: 10
+    content: "\e[m\r\n"
+  - delay: 39
+    content: 'PS C:\Users\ibrahim> '
+  - delay: 17011
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93mte\e[?25h"
+  - delay: 16
+    content: "\e[?25l\e[m\e[93m\e[45;22Hterminalizer \e[37mrender mon_an\e[?25h"
+  - delay: 16
+    content: "\e[?25l\e[m\e[93m\e[45;22Hterminalizer \e[37mrender mon_animation\e[?25h"
+  - delay: 579
+    content: "\e[m"
+  - delay: 10
+    content: "\r\n"
+  - delay: 1096
+    content: "Error: \r\n  The provided file doesn't exit\r\n\nHint:\r\n  Use the \e[32m--help \e[moption to get help about the usage\e[K\r"
+  - delay: 16
+    content: |+
+
+  - delay: 30
+    content: 'PS C:\Users\ibrahim> '
+  - delay: 35913
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93me\e[?25h"
+  - delay: 166
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\bex\e[?25h"
+  - delay: 113
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[45;22Hexi\e[?25h"
+  - delay: 109
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[92m\e[45;22Hexit\e[?25h"
+  - delay: 413
+    content: "\e[m"
+  - delay: 9
+    content: "\r\n"
