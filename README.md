@@ -1,5 +1,5 @@
-<h1 align="center">👋 Salut, je suis Brahim Mechaouat</h1>
-<h3 align="center">Étudiant chercheur passionné par l'IA, le Deep Learning et les graphes de connaissances</h3>
+<h1 align="center">👋 Hi, I'm Brahim Mechaouat</h1>
+<h3 align="center">AI enthusiast and research student passionate about Deep Learning and Knowledge Graphs</h3>
 
 <p align="center">
   <img src="assets/mon_animation.gif" alt="Terminal Animation" width="600"/>
@@ -7,16 +7,16 @@
 
 ---
 
-### 🎯 À propos de moi
+### 🎯 About Me
 
-- 🎓 Étudiant en fin de cycle ingénieur, actuellement en stage de recherche à Nancy, France 🇫🇷
-- 🔬 Mon sujet : Enrichissement des capacités de compréhension des LLM via des graphes de connaissances (KG)
-- 🧠 Passionné par : IA, GNNs, NLP, recherche scientifique, intelligence augmentée
-- 📍 Originaire du Maroc 🇲🇦 – Ouvert aux opportunités en recherche et en innovation
+- 🎓 Final-year engineering student, currently a research intern in Nancy, France 🇫🇷
+- 🔬 Research topic: Enhancing LLMs' reasoning capabilities with Knowledge Graphs (KG)
+- 🧠 Passionate about: AI, GNNs, NLP, scientific research, augmented intelligence
+- 📍 From Morocco 🇲🇦 – Open to research and innovation opportunities
 
 ---
 
-### 🧠 Domaines de recherche
+### 🧠 Research Interests
 
 - Graph Neural Networks (GNNs)
 - Knowledge Graph Embedding & Reasoning
@@ -26,21 +26,21 @@
 
 ---
 
-### 🛠️ Compétences techniques
+### 🛠️ Technical Skills
 
-| Langages         | Frameworks             | Bases & Outils        | IA & Données          |
-|------------------|------------------------|------------------------|------------------------|
-| Python, C++, Java| PyTorch, TensorFlow, Keras | Git, Docker, Linux     | Scikit-learn, Pandas, Numpy |
-| Markdown, LaTeX  | Jupyter, VS Code       | Neo4j, ChromaDB        | Transformers, Langchain |
+| Languages         | Frameworks               | Tools & Platforms     | AI & Data             |
+|-------------------|--------------------------|------------------------|------------------------|
+| Python, C++, Java | PyTorch, TensorFlow, Keras | Git, Docker, Linux     | Scikit-learn, Pandas, Numpy |
+| Markdown, LaTeX   | Jupyter, VS Code          | Neo4j, ChromaDB        | Transformers, Langchain |
 
 ---
 
-### 🚀 Projets récents
+### 🚀 Recent Projects
 
-- 🧪 **Stage recherche LORIA (France)** : LLM + KG reasoning for biomedical discovery
-- 📊 **CV Parser Platform** : Extraction intelligente de CV avec LLM Vision + API SAP
-- 🤖 **Support technique augmenté** : Cas d’usage RAG + KG + Langflow + Neo4j
-- 🛰️ **Multi-hop Flight Planner** : Suggestion d’itinéraires via KG sémantique (Neo4j Cypher)
+- 🧪 **LORIA Research Internship (France)**: LLM + KG reasoning for biomedical discovery
+- 📊 **CV Parser Platform**: Smart CV extraction using Vision LLM + SAP API integration
+- 🤖 **Augmented IT Support**: RAG + KG + Langflow + Neo4j use case for smart diagnostics
+- 🛰️ **Multi-hop Flight Planner**: Itinerary recommendation via semantic KG (Neo4j Cypher)
 
 ---
 
@@ -53,28 +53,26 @@
 
 ---
 
-### 🌐 Me retrouver
+### 🌐 Connect with Me
 
-- 🔗 [Mon Portfolio](https://brahex123.github.io/ibrahex123.github.io/)
+- 🔗 [My Portfolio](https://brahex123.github.io/ibrahex123.github.io/)
 - 💼 [LinkedIn](https://www.linkedin.com/in/ibrahim-mechaouat-21a939178/)
-- 🧪 Google Scholar : *à venir...*
-- 📬 Contact pro : brahim.mechaouat@gmail.com
+- 🧪 Google Scholar: *coming soon...*
+- 📬 Professional contact: brahim.mechaouat@gmail.com
 
 ---
 
-### ✨ Citation favorite
+### ✨ Favorite Quote
 
-> "La science, c’est l’esprit du doute en action." – Edgar Morin
-
----
-
-### 🙏 Remerciements
-
-Merci à mes encadrants et collègues chercheurs pour leur soutien pendant ce stage. Ce profil est un aperçu de ma passion pour l’intelligence artificielle, la recherche appliquée et l’impact réel de la technologie.
+> "Science is the spirit of doubt in action." – Edgar Morin
 
 ---
 
+### 🙏 Acknowledgments
 
+Thanks to my supervisors and research colleagues for their support throughout this internship. This profile reflects my passion for artificial intelligence, applied research, and the real-world impact of technology.
+
+---
 
 <!--
 **brahex123/brahex123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
